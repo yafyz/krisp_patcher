@@ -123,8 +123,6 @@ namespace krisp_patcher
                 Instruction[] insts = patcher.GetInstructions(target);
                 if (insts.Length < 3) {
                     Console.WriteLine("Disable updates already patched\n");
-                    for (int i = 0; i < insts.Length; i++) Console.WriteLine($"{i.ToString("X").PadLeft(2, '0')}    ->  {insts[i].OpCode.Code}");
-
                 } else {
                     Console.WriteLine("Description: disables updates");
                     if (!prompt("Apply disable updates patch ?")) {
