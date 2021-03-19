@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="dnlib">
+      <HintPath>dnlib.dll</HintPath>
+    </Reference>
+    <Reference Include="dnpatch">
+      <HintPath>dnpatch.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
